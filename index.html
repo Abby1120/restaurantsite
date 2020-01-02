@@ -15,29 +15,37 @@
             <a href="#home">Home</a>
             <a href="#menu">Menu</a>
             <a href="#hours">Hours</a>
-            <a href="#specials">Specials</a>
+            <a href="#specialties">Specialties</a>
             <a href="#ourstory">Our Story</a>
           </div>
 <!-- Icon Menu for screens < 600 pixels -->
           <div class="icon-bar">
-            <a class="active" href="#home"><i class="fas fa-home"></i></a>
-            <a href="#menu"><i class="fas fa-utensils"></i></a>
-            <a href="#hours"><i class="far fa-clock"></i></a>
-            <a href="#specials"><i class="fas fa-hat-wizard"></i></a>
-            <a href="#ourstory"><i class="fas fa-book"></i></a>
+            <a class="active" href="#home"><i class="fas fa-home"></i><span>HOME</span></a>
+            <a href="#menu"><i class="fas fa-utensils"></i><span>MENU</span></a>
+            <a href="#hours"><i class="far fa-clock"></i><span>HOURS</span></a>
+            <a href="#specialties"><i class="fas fa-hat-wizard"></i><span>SPECIALTIES</span></a>
+            <a href="#ourstory"><i class="fas fa-book"></i><span>OUR STORY</span></a>
           </div>
         
         <div class="hero-text">
-          <h1>The Magic Spoon Fudge Company<br> 魔法糖匙</h1>
+          <p>The Magic Spoon <br>Fudge Company<br> 魔法糖匙</p>
         </div>
       </header>
-<!-- Menu -->
-<h2>Menu</h2>
-<div class="tab">
-    <button class="tablinks" onclick="openPage(event, 'menu1')">Page 1</button>
+<!-- Menu Large Screen -->
+<div class="wrapper">
+<h1 id="menu">Menu</h1>
+      <section class="largemenu">
+        <img src="img/menupage1.jpg">
+        <img src="img/menupage2.jpg">
+        <img src="img/menupage3.jpg">
+      </section>
+
+<!-- Menu Small Screen  -->
+<section class="tab">
+    <button class="tablinks" onclick="openPage(event, 'menu1')" id="defaultOpen">Page 1</button>
     <button class="tablinks" onclick="openPage(event, 'menu2')">Page 2</button>
     <button class="tablinks" onclick="openPage(event, 'menu3')">Page 3</button>
-  </div>
+  
   
   <div id="menu1" class="tabcontent">
     <p><img src="img/menupage1.jpg"></p>
@@ -50,6 +58,131 @@
   <div id="menu3" class="tabcontent">
     <p><img src="img/menupage3.jpg"></p>
   </div>
+
+</section>
+<hr>
+<section id="specialties">
+  <h1>Specialties</h1>
+  <div class="container">
+    <div class="item-2 slideshow-container">
+      <div class="mySlides fade">
+        <img class="ckswch" src="./img/cookies.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="./img/fudgecaramel.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="./img/muffins.jpg">
+      </div>
+    </div>
+    
+ 
+    <div class="item-3">
+     <p>Ice Cream Sandwiches:<br>
+      Choose cookies: dark chocolate, chocolate chip, shortbread<br>
+      Choose ice cream: vanilla, dark chocolate, strawberry, mint, white
+      chocolate<br>
+      small- 40NT/ per or 10/ 350<br>
+      large- 80NT/ per or 10/ 700<br>
+      
+      <br>Brownie Ice Cream Sandwiches:<br>
+      Choose ice cream: vanilla, dark chocolate, strawberry, mint, white
+      chocolate<br>
+      small- 40NT/ per or 10/ 350<br>
+      large- 80NT/ per or 10/ 700<br>
+      
+      <br>Sausage Rolls (made with Cory's Kitchen sausage meat):
+      Flavours: mild, Italian, spicy chorizo<br>
+      small- 35NT/ per or 10/ 300NT<br>
+      large- 70NT per or 10/ 600NT<br>
+      
+      <br>Homemade Cookies:<br>
+      Flavours: dark chocolate, chocolate chip, shortbread<br>
+      
+      20NT/ per or 10/ 150NT<br>
+      
+      <br>Organic Brownies (dark chocolate with walnuts)<br>
+      
+      60NT/ per or 10/ 500NT<br>
+      
+      <br>Fudge:<br>
+      Flavours: maple, maple walnut, dark chocolate, vanilla, chocolate mint<br>
+      
+      80NT/ 100g (gift boxes available on request and subject to additional charge)<br>
+      
+      <br>***free delivery within Kaohsiung for all orders 500NT and over
+      </p>
+    </div>
+    <div class="item-4">
+      <p>Stop by and see what's special today. <br>Everything is made in house.  Organic ingredients, fresh fruit and vegetables 
+         along with high quality meats and cheeses.</p>
+    </div>
+</section>
+</div>
+<section class="aboutus">
+    <div id="ourstory">
+    <h2>Our Story</h2>
+      <p>The owner is a Canadian expat who arrived in Kaohsiung in August of 2000.<br>
+         Gareth has lived and taught in Taiwan for over 19 years.<br>
+         In 2010, The Magic Spoon was founded to provide locally made premium ice cream.<br>
+         In August 2017, The Magic Spoon Brunch House was officially opened.<br>
+         Our goal is to provide a high quality, homemade brunch experience
+         that cannot be replicated at home.<br>
+         We source most of our ingredients locally and through fellow expats
+         who are also producing top notch ingredients which we use in our brunches.<br>
+         We hope that you enjoy your time with us and if you have ANY questions, comments
+         or concerns, we encourage you to share them with either Gareth or any of the competent
+         staff here.<br>
+         The Magic Spoon Brunch House... Are you up for it?</p>
+  </div>
+    <div id="ourpromise"> 
+  <h2>Our Promise</h2>
+      <p>The Magic Spoon Brunch House strives for an extremely high level of
+         quality and freshness.<br>
+         At The Magic Spoon Brunch House we only use organic eggs, flour, whole
+         milk, imported cream, whole fruit and high quality meat and vegetables.<br>
+         Our sausage meat is locally sourced through Cory's Kitchen our hot sauces
+         are made by another Canadian at Greenspoons's.<br>
+         If you love us tell your friends. If your experience here did not meet 
+         expectations, please bring it to our attention.<br>
+         We aim to make your time here memorable(for all the right reasons).
+      </p>
+    </div> 
+</section>
+
+<footer class="footer">
+  <div class="info">
+  <div id="hours">
+    <h2>Hours</h2>
+    <p>Monday: 11am - 2pm</p>
+    <p>Tuesday: 9am - 2pm</p>
+    <p>Wednesday: 9am - 2pm</p>
+    <p>Thursday: 9am - 2pm</p>
+    <p>Friday: 9am - 2pm</p>
+    <p>Saturday: 9am - 3pm</p>
+    <p>Sunday: 9am - 3pm</p>
+  </div>
+
+  <div id="contact"> 
+    <h2>Contact</h2>
+    <p>No. 157, Wenwu 2nd Street<br>
+     Kaohsiung, Taiwan</p>
+     <p>Phone:+886 922 922 469</p>
+    <a href="https://www.facebook.com/MagicSpoonTW/"> <i class="fab fa-facebook fa-3x"></i></a>
+    <a href="https://www.instagram.com/gareth_crellin/"><i class="fab fa-instagram fa-3x"></i></a>
+   </div>
+   <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.6932685315974!2d120.29328041479307!3d22.627926585154324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e0462cccd8325%3A0x8168e2461edb71c9!2sNo.%20157%2C%20Wenwu%202nd%20Street%2C%20Qianjin%20District%2C%20Kaohsiung%20City%2C%20Taiwan%20801!5e0!3m2!1sen!2sus!4v1577916884258!5m2!1sen!2sus"
+    allowfullscreen=""></iframe>
+   </div>
+  </div>
+   <div class="copyright">
+     <p>Copyright 2020 The Magic Spoon</p>
+     <p>Site by Boomerang</p>
+   </div>
+ </footer>
+
+
   <script src="main.js"></script>
 </body>
 </html>
